@@ -5,6 +5,7 @@ pipeline {
 		stage("build") {
 			steps {
 				sh 'echo hello bong - build phase'
+				echo 'Another way of displaying console output'
 			}
 		}
 		stage("test") {
